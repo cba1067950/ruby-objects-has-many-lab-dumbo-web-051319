@@ -18,8 +18,9 @@ class Author
     post.author = self
   end 
   
-  def post_count 
-    binding.pry 
+  def self.post_count 
+    bingding.pry 
+    Post.all.count 
   end
   
 end
