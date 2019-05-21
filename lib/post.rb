@@ -1,5 +1,9 @@
 class Post 
   
-  def initialize 
+  def initialize(name)
+    
+    
+    
+  end 
   
 end 
