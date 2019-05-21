@@ -18,7 +18,6 @@ class Post
     else 
       self.author
     end 
-    
   end 
   
 end 
