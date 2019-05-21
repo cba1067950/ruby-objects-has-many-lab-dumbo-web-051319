@@ -12,4 +12,13 @@ class Post
     @@all 
   end
   
+  def author_name
+    if self.author == nil 
+      return nil 
+    else 
+      self.author
+    end 
+    
+  end 
+  
 end 
