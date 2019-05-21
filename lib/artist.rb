@@ -19,11 +19,7 @@ class Artist
   end 
   
   def self.song_count
-    Song.all.each do |song|
-    binding.pry  
-    end
-    
-    # .count
+    Song.all.count 
   end 
   
 end 
